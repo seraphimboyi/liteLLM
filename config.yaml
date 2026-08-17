@@ -5,5 +5,5 @@ model_list:
       api_key: os.environ/ANTHROPIC_API_KEY
   - model_name: ollama/gpt-oss:20b
     litellm_params:
-      model: ollama/gpt-oss:20b
+      model: ollama_chat/gpt-oss:20b
       api_base: "http://host.docker.internal:11434"
